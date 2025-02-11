@@ -1,0 +1,35 @@
+QLineEdit:pressed{{
+    color: black;
+}}
+
+QComboBox:pressed{{
+    color: black;
+}}
+
+QSpinBox:pressed{{
+    color: black;
+}}
+
+QLineEdit:focus{{
+    color: black;
+}}
+
+QComboBox:focus{{
+    color: black;
+}}
+
+QSpinBox:focus{{
+    color: black;
+}}
+
+QLabel{{
+    font: 14px;
+    color: #cbbfd5;
+}}
+
+QLabel#messageBox{{
+    font: 16px;
+    background-color: #cbbfd5;
+    color: #000000;
+    padding: 2px;
+}}

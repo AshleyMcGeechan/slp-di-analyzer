@@ -1,0 +1,31 @@
+[project]
+name = "slp_di_analyzer"
+version = "0.9.0"
+authors = [
+  { name="Ashley McGeechan", email="apmcgeechan@gmail.com" },
+]
+description = "A tool for generating Directional Influence heatmaps from Slippi files."
+requires-python = ">=3.10"
+dependencies = [
+	"qt_material>=2.14",
+    "numpy>=2.0",
+    "pyqtgraph>=0.13.7",
+    "PySide6_Essentials>=6.8.1.1",
+    "pyarrow>=17.0.0",
+    "inflection>=0.5",
+    "peppi-py; python_version < '3.13'"
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[pytest]
+testpaths = "tests"
