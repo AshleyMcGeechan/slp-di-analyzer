@@ -23,7 +23,7 @@ Or if you installed the package using PyPI you can run it using this command:
 python -m slp_di_analyzer
 ```
 
-![gui](https://raw.githubusercontent.com/AshleyMcGeechan/slp-di-analyzer/assets/gui_example.png)
+![gui](https://raw.githubusercontent.com/AshleyMcGeechan/slp-di-analyzer/tree/master/assets/gui_example.png)
 
 Click the Select Slippi File Directory button and navigate to a folder containing your SLP files. This will also search any subfolders.
 
